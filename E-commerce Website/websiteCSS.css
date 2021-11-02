@@ -1,0 +1,210 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+div.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;                           
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /*width: 100px;*/
+    size: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+/*This used for the cart shit*/
+.cartBody{
+    width: auto;
+    height: auto;
+    background-image: url("Images/cartBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.cartContentBox{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 25%;
+    height: 360px;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+
+/*Supposed to be used for header but isnt*/
+div.topNav{
+    width: 100%;
+    height: 120px; /* can still change how big the header should be*/
+    
+}
+
+.searchText{
+    top: 15px;
+    position: absolute;
+    right: 500px;
+    width: 250px;
+    height: 40px;
+}
+
+.searchBut{
+    top: 15px;
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    right: 420px;  
+    
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: lightblue;
+}
+
+div.links{
+    position: absolute;
+    left: 120px;
+    top: 15px;
+}
+
+div.processes{
+    position: absolute;
+    left: 800px;
+    top: 25px;
+    
+}
+
+/*This is used when viewing cart stuff*/
+
+div.cartView{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;                           
+
+    grid-column-gap: 10px;
+    size: 100px;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 55%;
+    height: 360px;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+
+}
+
+div.noCartView{
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 55%;
+    height: 360px;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+
+}
+
+/*This is used to move and adjust the prices tag and the place order button*/
+div.cartPrices{
+    position: absolute;
+    right: 750px;
+    bottom: 280px;
+}
+
+
+/* This is used to view the pages at login*/
+.contentPage{
+    width: auto;
+    height: auto;
+    /*    background-image: url("Images/IceCreamBackgroundImage.jpg");*/
+    background-image: url("Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/*This is used for the design of the login screen*/
+div.contentBox{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 25%;
+    height: 410px;
+    position: absolute;
+    top: 250px;
+    left: 550px;    
+}
+/*This is used for the buttons at login screen*/
+.logInButton{
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: lightblue;
+    height: 35px;
+    width: auto;
+}
+.removeButton{
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: lightblue;
+    height: 30px;
+    width: auto;
+}
+div.signUpContentBox{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 25%;
+    height: 800px;
+    position: absolute;
+    top: 150px;
+    left: 720px;
+}
+
+div.forgotPasswordContentBox{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 25%;
+    height: 450px;
+    position: absolute;
+    top: 250px;
+    left: 550px; 
+}
+
+/*This is used to change the borders for each result*/
+div.resultsPanel{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background-color: rgb(208, 238, 243);
+}
+
+/*This will be used to convert the href links to actual buttons*/
+.link{
+    color: black;
+    text-decoration: none;    
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){ /* This will be used to display the website correcting on a mobile device*/
+
+}
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px){ 
+/* The information that is in this is the same as what I have placed above, there are slight alterations due to the content has to fit on an average tablet screen*/
+}
