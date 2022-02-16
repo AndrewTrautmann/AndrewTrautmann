@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @AndrewTrautmann
 - 👀 I’m interested in back-end development, software engineering
-- 🌱 I’m a final year BSc IT student, studying at Eduvos 
+
 
 
 <!---
