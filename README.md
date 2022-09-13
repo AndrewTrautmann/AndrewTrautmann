@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @AndrewTrautmann
 - 👀 I’m interested in back-end development, software engineering
-- Currently an Internt at 1Nebula
-
 
 
 <!---
